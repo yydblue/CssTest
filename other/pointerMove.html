@@ -57,12 +57,12 @@
     set_pos_left.addEventListener("click", function () {
         var cur_pos = getCursorPosition(test_input);
         setCursorPosition(test_input, cur_pos - 1);
-    });
+    }, false);
 
     set_pos_right.addEventListener("click", function () {
         var cur_pos = getCursorPosition(test_input);
         setCursorPosition(test_input, cur_pos + 1);
-    });
+    }, false);
 </script>
 </body>
 </html>
